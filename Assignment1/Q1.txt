@@ -1,0 +1,4 @@
+Q: How do lists and tuples differ in terms of mutability and performance? When would you choose one over the other?
+A: Lists are mutable (can be modified), while tuples are immutable (cannot be modified). 
+    Lists are slower due to their dynamic nature, whereas tuples are faster and use less memory. 
+    When the data is to be changeable we use lists but for unchangeable data we use tuples.
